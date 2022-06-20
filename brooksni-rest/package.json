@@ -1,0 +1,19 @@
+{
+  "name": "exercise-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise_controller.mjs",
+  "scripts": {
+    "start": "nodemon exercise_controller.mjs"
+  },
+  "author": "Nicholas Brooks",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16",
+    "validatorjs": "^3.22.1"
+  }
+}
